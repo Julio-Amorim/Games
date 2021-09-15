@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap');
+
+/*font-family: 'Rubik', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image:  linear-gradient(to bottom, #D9D9D9, #8596A6);
+}
+
+header{
+    position: relative;
+    padding: 20px;
+    background-color: #2B3240;
+}
+
+header #titulo{
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+main {
+    background-color: #8596A6;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    position: absolute;
+    left: 25vw;
+    top: 20vh;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 10px;
+}
+
+#sniker_nome{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+#sniker_img{
+    border-radius: 10px;
+}
+
+#sniker_img:hover{
+    border-radius: 10px;
+    opacity: 75%;
+}

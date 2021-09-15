@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #E0E6EF;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+}
+
+#game{
+    height: 85vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-board{
+    background: #B0B2AA;
+    height: 75vmin;
+    width: 75vmin;
+    display: grid;
+
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+}
+
+.snake{
+    background-color: #202731;
+    border: 0.20vmin solid #B0B2AA;
+}
+
+.food{
+    background-color: #E3CA00;
+    border: 0.5vmin solid #B0B2AA;
+}
