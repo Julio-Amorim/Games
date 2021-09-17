@@ -38,7 +38,7 @@ header h1 {
 
 .snake{
     background-color: #202731;
-    border: 0.20vmin solid #B0B2AA;
+    border: 1px solid #B0B2AA;
 }
 
 .food{

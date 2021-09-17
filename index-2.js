@@ -1,7 +1,7 @@
 import { equalPositions } from './auxiliar.js';
 import { getInputDirection } from './input.js';
  
-export const SNAKE_SPEED = 5;
+export const SNAKE_SPEED = 7;
 
 let newSegments = 0;
 
