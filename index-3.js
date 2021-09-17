@@ -1,5 +1,5 @@
-import { generateRandomBoardPosition } from '../board/index.js';
-import { collision as snakeCollision, expandSnake} from '../snake/index.js';
+import { generateRandomBoardPosition } from './index-4.js';
+import { collision as snakeCollision, expandSnake} from './index-2.js';
 
 const EXPANSION_RATE = 1; // TAXA DE EXPANSÃO DA COBRINHA
 
