@@ -1,6 +1,6 @@
-import { SNAKE_SPEED, update as updateSnake, draw as drawSnake, getSnakeHead, selfCollision as snakeSelfCollision } from './snake/index.js'
-import { draw as drawFood, update as updateFood } from './food/index.js'
-import { gameboard, isOutsideBoard } from './board/index.js';
+import { SNAKE_SPEED, update as updateSnake, draw as drawSnake, getSnakeHead, selfCollision as snakeSelfCollision } from './Snake/index.js';
+import { draw as drawFood, update as updateFood } from './Food/index.js';
+import { gameboard, isOutsideBoard } from './Board/index.js';
 
 let lastTimeRender = 0;
 
